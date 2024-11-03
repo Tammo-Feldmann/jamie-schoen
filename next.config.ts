@@ -6,6 +6,5 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable image optimization, necessary for GitHub Pages
   },
-  basePath: "/jamie-schoen",
 };
 export default nextConfig;
