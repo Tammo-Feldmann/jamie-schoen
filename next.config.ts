@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  distDir: "out",
+  basePath: "/jamie-schoen",
   images: {
     unoptimized: true, // Disable image optimization, necessary for GitHub Pages
   },
